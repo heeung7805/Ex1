@@ -1,0 +1,120 @@
+﻿2017-02-19 17:26:15.0002|INFO|thread:52|BlobCacheUtils|Vacuuming C:\Users\heeun\AppData\Roaming\GitHub\api.github.com.cache.db
+2017-02-19 17:25:09.7721|INFO|thread: 1|GitHubEnvironment|ACTIVATION DATA RAW
+2017-02-19 17:25:09.7831|INFO|thread: 1|GitHubEnvironment|[http://github-windows.s3.amazonaws.com/GitHub.application]: '0'
+2017-02-19 17:25:09.7831|INFO|thread: 1|GitHubEnvironment|ACTIVATION DATA UNENCODED
+2017-02-19 17:25:09.7831|INFO|thread: 1|GitHubEnvironment|[http://github-windows.s3.amazonaws.com/GitHub.application]: '0'
+2017-02-19 17:25:09.7831|INFO|thread: 1|CommandLineHandler|Parsing command line arguments:http://github-windows.s3.amazonaws.com/GitHub.application
+2017-02-19 17:25:09.7963|INFO|thread: 1|CommandLineHandler|Unprocessed args: http://github-windows.s3.amazonaws.com/GitHub.application
+2017-02-19 17:25:09.7963|WARN|thread: 1|CommandHandler|Exception occurred while opening path 'http://github-windows.s3.amazonaws.com/GitHub.application'
+System.NotSupportedException: 지정한 경로 형식은 지원되지 않습니다.
+   위치: System.Security.Permissions.FileIOPermission.EmulateFileIOPermissionChecks(String fullPath)
+   위치: System.Security.Permissions.FileIOPermission.QuickDemand(FileIOPermissionAccess access, String fullPath, Boolean checkForDuplicates, Boolean needFullPath)
+   위치: GitHub.Helpers.CommandHandler.SelectRepositoryByPath(String path)
+2017-02-19 17:25:09.8409|INFO|thread: 1|AppInstance|Starting up as master instance of GitHub Desktop
+2017-02-19 17:25:09.8790|INFO|thread: 4|StartupLogging| #########################################
+2017-02-19 17:25:09.8790|INFO|thread: 4|StartupLogging| GitHub Desktop started. VERSION: 3.3.4.0
+2017-02-19 17:25:09.8790|INFO|thread: 4|StartupLogging| Build version: 50415dfc92210fcda6c1e5a82b0e4aec7c60bec6
+2017-02-19 17:25:09.8790|INFO|thread: 4|StartupLogging| ***************************************
+2017-02-19 17:25:09.8790|INFO|thread: 4|StartupLogging| ***                                 ***
+2017-02-19 17:25:09.8790|INFO|thread: 4|StartupLogging| ***                                 ***
+2017-02-19 17:25:09.8790|INFO|thread: 4|StartupLogging| ***        Have a problem?          ***
+2017-02-19 17:25:09.8790|INFO|thread: 4|StartupLogging| ***    Email support@github.com     ***
+2017-02-19 17:25:09.8790|INFO|thread: 4|StartupLogging| ***      and include this file      ***
+2017-02-19 17:25:09.8790|INFO|thread: 4|StartupLogging| ***                                 ***
+2017-02-19 17:25:09.8790|INFO|thread: 4|StartupLogging| ***                                 ***
+2017-02-19 17:25:09.8790|INFO|thread: 4|StartupLogging| ***************************************
+2017-02-19 17:25:09.8790|INFO|thread: 4|StartupLogging| OS Version: Windows 10 10.0.14393.0 amd64
+2017-02-19 17:25:09.8790|INFO|thread: 4|StartupLogging| CLR Version: 4.0.30319.42000
+2017-02-19 17:25:09.8790|INFO|thread: 4|StartupLogging| Current culture: ko-KR
+2017-02-19 17:25:09.8790|INFO|thread: 4|StartupLogging| Environment.CurrentDirectory: C:\Users\heeun\AppData\Local\Apps\2.0\3VE1NJ85.LC4\VYA25DXN.734\gith..tion_317444273a93ac29_0003.0003_5794af8169eeff14
+2017-02-19 17:25:09.8790|INFO|thread: 4|StartupLogging| currentProcess.StartInfo.WorkingDirectory: 
+2017-02-19 17:25:09.8790|INFO|thread: 4|StartupLogging| Terminal Services session: no
+2017-02-19 17:25:09.8790|INFO|thread: 4|StartupLogging| Location: C:\Users\heeun\AppData\Local\Apps\2.0\3VE1NJ85.LC4\VYA25DXN.734\gith..tion_317444273a93ac29_0003.0003_5794af8169eeff14\GitHub.exe
+2017-02-19 17:25:09.9096|INFO|thread: 1|HardwareRenderingHelper|Making a WMI query to discover any video PNPID entries
+2017-02-19 17:25:09.9252|INFO|thread: 4|StartupLogging| ActivationUri: https://github-windows.s3.amazonaws.com/GitHub.application
+2017-02-19 17:25:09.9252|INFO|thread: 4|StartupLogging| System.Environment.CommandLine: C:\Users\heeun\AppData\Local\Apps\2.0\3VE1NJ85.LC4\VYA25DXN.734\gith..tion_317444273a93ac29_0003.0003_5794af8169eeff14\GitHub.exe
+2017-02-19 17:25:09.9863|INFO|thread: 4|GitEnvironment|Process set up with this SSH Agent info: (null):(null)
+2017-02-19 17:25:09.9863|INFO|thread: 4|GitEnvironment|PATH is C:\Users\heeun\AppData\Local\GitHub\PortableGit_f02737a78695063deace08e96d5042710d3e32db\cmd;C:\Users\heeun\AppData\Local\GitHub\PortableGit_f02737a78695063deace08e96d5042710d3e32db\usr\bin;C:\Users\heeun\AppData\Local\GitHub\PortableGit_f02737a78695063deace08e96d5042710d3e32db\usr\share\git-tfs;C:\Users\heeun\AppData\Local\Apps\2.0\3VE1NJ85.LC4\VYA25DXN.734\gith..tion_317444273a93ac29_0003.0003_5794af8169eeff14;C:\Users\heeun\AppData\Local\GitHub\lfs-amd64_1.5.5;C:\Program Files (x86)\Google\Chrome\Application;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_111bin;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Users\heeun\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\7z;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\MSBuild\14.0\bin\;C:\Program Files (x86)\Microsoft SDKs\Windows\v8.1A\bin\NETFX 4.5.1 Tools\x64
+2017-02-19 17:25:09.9863|INFO|thread: 4|StartupLogging| =====================================================
+2017-02-19 17:25:09.9863|INFO|thread: 4|StartupLogging|  DIAGNOSTICS                                        |
+2017-02-19 17:25:09.9863|INFO|thread: 4|StartupLogging| =====================================================
+2017-02-19 17:25:09.9863|INFO|thread: 4|StartupLogging| Git Extracted: 'False:
+2017-02-19 17:25:09.9863|ERROR|thread: 4|StartupLogging| MISSING PortableGit Dir: 'C:\Users\heeun\AppData\Local\GitHub\PortableGit_f02737a78695063deace08e96d5042710d3e32db'
+2017-02-19 17:25:10.0014|ERROR|thread: 4|PortableGitManager|git.exe doesn't exist at 'C:\Users\heeun\AppData\Local\GitHub\PortableGit_f02737a78695063deace08e96d5042710d3e32db\cmd\git.exe'
+2017-02-19 17:25:10.0014|ERROR|thread: 4|StartupLogging| MISSING Git Executable: 'C:\Users\heeun\AppData\Local\GitHub\PortableGit_f02737a78695063deace08e96d5042710d3e32db\cmd\git.exe'
+2017-02-19 17:25:10.0014|ERROR|thread: 4|StartupLogging| MISSING PATH!!: 'C:\Users\heeun\AppData\Local\GitHub\PortableGit_f02737a78695063deace08e96d5042710d3e32db\cmd'
+2017-02-19 17:25:10.0014|ERROR|thread: 4|StartupLogging| MISSING PATH!!: 'C:\Users\heeun\AppData\Local\GitHub\PortableGit_f02737a78695063deace08e96d5042710d3e32db\usr\bin'
+2017-02-19 17:25:10.0014|ERROR|thread: 4|StartupLogging| MISSING PATH!!: 'C:\Users\heeun\AppData\Local\GitHub\PortableGit_f02737a78695063deace08e96d5042710d3e32db\usr\share\git-tfs'
+2017-02-19 17:25:10.0014|ERROR|thread: 4|StartupLogging| MISSING PATH!!: 'C:\Users\heeun\AppData\Local\GitHub\lfs-amd64_1.5.5'
+2017-02-19 17:25:10.0014|ERROR|thread: 4|StartupLogging| MISSING PATH!!: 'C:\Program Files\Java\jdk1.8.0_111bin'
+2017-02-19 17:25:10.0014|ERROR|thread: 4|StartupLogging| MISSING PATH!!: 'C:\WINDOWS\system32\config\systemprofile\.dnx\bin'
+2017-02-19 17:25:10.0014|INFO|thread: 4|StartupLogging| ----------------------------------------------------
+2017-02-19 17:25:10.0014|INFO|thread: 4|StartupLogging| PATH: C:\Program Files (x86)\Google\Chrome\Application;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_111bin;C:\Program Files\Java\jdk1.8.0_111\bin;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Users\heeun\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\7z;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\
+2017-02-19 17:25:10.0365|INFO|thread: 4|StartupLogger|Proxy information: (None)
+2017-02-19 17:25:10.0365|INFO|thread: 4|StartupLogger|Couldn't fetch creds for proxy
+2017-02-19 17:25:10.0901|INFO|thread: 4|UrlProtocolInstaller|Registered UrlAppLauncher protocol: "C:\Users\heeun\AppData\Local\Apps\2.0\3VE1NJ85.LC4\VYA25DXN.734\gith..tion_317444273a93ac29_0003.0003_5794af8169eeff14\GitHub.exe" -u="%1"
+2017-02-19 17:25:10.0946|INFO|thread: 4|ShortcutManager|Shortcut 'C:\Users\heeun\AppData\Local\GitHub\GitHub.appref-ms' missing. Assuming a first run.
+2017-02-19 17:25:10.0946|INFO|thread: 4|ShortcutManager|Copying the Start Menu shortcut 'C:\Users\heeun\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub, Inc\GitHub.appref-ms' to 'C:\Users\heeun\AppData\Local\GitHub\GitHub.appref-ms'
+2017-02-19 17:25:10.0946|INFO|thread: 1|HardwareRenderingHelper|Your video card appears to support hardware rendering. If this isn't the case and you see glitches
+2017-02-19 17:25:10.0946|INFO|thread: 1|HardwareRenderingHelper|set the GH_FORCE_SW_RENDERING environment variable to 1
+2017-02-19 17:25:10.1824|INFO|thread: 4|ShortcutManager|Saving the Git Shell shortcut C:\Users\heeun\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\GitHub, Inc\Git Shell.lnk
+2017-02-19 17:25:10.2164|INFO|thread: 4|ShortcutManager|Saving the Git Shell shortcut C:\Users\heeun\Desktop\Git Shell.lnk
+2017-02-19 17:25:10.4288|INFO|thread: 4|ProcessWrapper|Starting: Process - FileName: 'C:\Users\heeun\AppData\Local\Apps\2.0\3VE1NJ85.LC4\VYA25DXN.734\gith..tion_317444273a93ac29_0003.0003_5794af8169eeff14\lib\7za.exe', Args: 'x -y "-oC:\Users\heeun\AppData\Local\GitHub\a1wtttbm.dzh.deleteme" "C:\Users\heeun\AppData\Local\Apps\2.0\3VE1NJ85.LC4\VYA25DXN.734\gith..tion_317444273a93ac29_0003.0003_5794af8169eeff14\PortableGit.7z"', Working Directory: 
+2017-02-19 17:25:10.4850|INFO|thread: 4|PortablePackageManager|Extracting PortableGit.7z is (so far) successful
+2017-02-19 17:25:10.5306|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\heeun\AppData\Local\Apps\2.0\3VE1NJ85.LC4\VYA25DXN.734\gith..tion_317444273a93ac29_0003.0003_5794af8169eeff14\lib\7za.exe', Args: 'x -y "-oC:\Users\heeun\AppData\Local\GitHub\xh4veh1g.34r.deleteme" "C:\Users\heeun\AppData\Local\Apps\2.0\3VE1NJ85.LC4\VYA25DXN.734\gith..tion_317444273a93ac29_0003.0003_5794af8169eeff14\tutorial.7z"', Working Directory: 
+2017-02-19 17:25:10.5306|INFO|thread: 1|PortablePackageManager|Extracting tutorial.7z is (so far) successful
+2017-02-19 17:25:10.5461|INFO|thread: 1|GitHubEnvironment|ACTIVATION DATA RAW
+2017-02-19 17:25:10.5461|INFO|thread: 1|GitHubEnvironment|[http://github-windows.s3.amazonaws.com/GitHub.application]: '0'
+2017-02-19 17:25:10.5461|INFO|thread: 1|GitHubEnvironment|ACTIVATION DATA UNENCODED
+2017-02-19 17:25:10.5461|INFO|thread: 1|GitHubEnvironment|[http://github-windows.s3.amazonaws.com/GitHub.application]: '0'
+2017-02-19 17:25:10.5461|INFO|thread: 1|App|Checking whether application is network deployed: True
+2017-02-19 17:25:10.5461|INFO|thread: 1|App|Shortcut C:\Users\heeun\AppData\Local\GitHub\GitHub.appref-ms exists? True
+2017-02-19 17:25:10.6294|INFO|thread: 1|ClickOnceAppIconHelper|Updating registry with our application icon 'C:\Users\heeun\AppData\Local\Apps\2.0\3VE1NJ85.LC4\VYA25DXN.734\gith..tion_317444273a93ac29_0003.0003_5794af8169eeff14\Images\App.ico'
+2017-02-19 17:25:11.6480|INFO|thread:18|PortablePackageManager|Extracted package successfully: tutorial.7z
+2017-02-19 17:25:12.6511|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.ShellViewModel.
+2017-02-19 17:25:12.6511|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.DashboardViewModel.
+2017-02-19 17:25:14.4256|INFO|thread: 1|ProcessWrapper|Starting: Process - FileName: 'C:\Users\heeun\AppData\Local\Apps\2.0\3VE1NJ85.LC4\VYA25DXN.734\gith..tion_317444273a93ac29_0003.0003_5794af8169eeff14\lib\7za.exe', Args: 'x -y "-oC:\Users\heeun\AppData\Local\GitHub\cuoj2k0w.kp2.deleteme" "C:\Users\heeun\AppData\Local\Apps\2.0\3VE1NJ85.LC4\VYA25DXN.734\gith..tion_317444273a93ac29_0003.0003_5794af8169eeff14\gitignore.7z"', Working Directory: 
+2017-02-19 17:25:14.4366|INFO|thread: 1|PortablePackageManager|Extracting gitignore.7z is (so far) successful
+2017-02-19 17:25:15.3215|INFO|thread:19|DashboardViewModel|Selected repository '/Tutorial'
+2017-02-19 17:25:15.3571|INFO|thread:19|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 1 at GitClient.cs:605
+2017-02-19 17:25:15.3631|INFO|thread:19|AsyncReaderWriterLock|Acquiring exclusive scheduler for operation 2 at GitClient.cs:583
+2017-02-19 17:25:15.7797|INFO|thread:18|PortablePackageManager|Extracted package successfully: gitignore.7z
+2017-02-19 17:25:15.7797|WARN|thread:18|LoginCache|Could not get login for host 'GitHub.HostAddress'
+System.Collections.Generic.KeyNotFoundException: The given key 'login:github.com' was not present in the cache.
+2017-02-19 17:25:15.7797|WARN|thread:18|LoginCache|Could not get login for host 'GitHub.HostAddress'
+System.Collections.Generic.KeyNotFoundException: The given key 'login:null' was not present in the cache.
+2017-02-19 17:25:15.7797|INFO|thread:18|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 1 at GitClient.cs:605 after waiting 0.4346778s
+2017-02-19 17:25:16.0208|INFO|thread:25|AsyncReaderWriterLock|Released concurrent scheduler for operation: 1 at GitClient.cs:605 after blocking 0.2286673s
+2017-02-19 17:25:16.0208|INFO|thread:25|AsyncReaderWriterLock|Acquired exclusive scheduler for operation: 2 at GitClient.cs:583 after waiting 0.6610478s
+2017-02-19 17:25:16.0825|INFO|thread: 1|ReactiveScreen|Activating GitHub.ViewModels.WelcomeWizardViewModel.
+2017-02-19 17:25:17.1774|INFO|thread:25|DashboardViewModel|Took 1832ms to Create RepositoryViewModel for location C:\Users\heeun\AppData\Local\GitHub\TutorialRepository_d0aa732a2b4666b3029e2320f1a06cd39e99c9fc\new-repo
+2017-02-19 17:25:17.1774|INFO|thread:25|AsyncReaderWriterLock|Released exclusive scheduler for operation: 2 at GitClient.cs:583 after blocking 1.1544065s
+2017-02-19 17:25:20.6902|INFO|thread:40|SoftwareUpdateViewModel|Checking for new version
+2017-02-19 17:25:46.2661|WARN|thread:38|AnonymousIdentifierProvider|No anonymous identifier in cache, inserting: ca1383ea71d54483b4e9b433e6ac4bfa
+2017-02-19 17:25:48.4574|INFO|thread:25|BlobCacheUtils|Vacuuming C:\Users\heeun\AppData\Local\GitHub\images.cache.db
+2017-02-19 17:25:48.5672|INFO|thread: 1|RepositoryHost|Log in from cache for login 'heeung7805' to host 'https://api.github.com/' SUCCEEDED
+2017-02-19 17:25:48.6318|INFO|thread: 1|RepositoryHosts|Log in to GitHub.com with username 'heeung7805' SUCCEEDED
+2017-02-19 17:25:48.6980|INFO|thread:40|GitConfig|Setting default global git configuration for user.name b/c it was blank. value = heeung7805
+2017-02-19 17:25:52.1816|INFO|thread:41|GitConfig|Saving global git configuration for user.name and user.email
+2017-02-19 17:25:52.1816|INFO|thread:41|GitConfig|Changing global git configuration for user.email. value = heeung7805@gmail.com
+2017-02-19 17:25:56.9259|INFO|thread: 1|ReactiveScreen|Deactivating GitHub.ViewModels.WelcomeWizardViewModel.
+2017-02-19 17:25:56.9259|INFO|thread: 1|ReactiveScreen|Closed GitHub.ViewModels.WelcomeWizardViewModel.
+2017-02-19 17:25:59.2957|INFO|thread:19|DashboardViewModel|Selected repository '/Tutorial'
+2017-02-19 17:26:00.8363|INFO|thread: 1|AsyncReaderWriterLock|Acquiring concurrent scheduler for operation 3 at GitClient.cs:588
+2017-02-19 17:26:00.8363|INFO|thread:38|AsyncReaderWriterLock|Acquired concurrent scheduler for operation: 3 at GitClient.cs:588 after waiting 3.51E-05s
+2017-02-19 17:26:00.8458|INFO|thread:37|AsyncReaderWriterLock|Released concurrent scheduler for operation: 3 at GitClient.cs:588 after blocking 0.0096724s
+2017-02-19 17:26:03.6433|ERROR|thread:20|ComparisonGraph|JavaScript Alert from the comparison graph: http://github-app/: TypeError: Cannot read property 'selectCommit' of null
+2017-02-19 17:26:14.8879|INFO|thread: 1|ReactiveScreen|Deactivating GitHub.ViewModels.ShellViewModel.
+2017-02-19 17:26:14.8879|INFO|thread: 1|ReactiveScreen|Deactivating GitHub.ViewModels.DashboardViewModel.
+2017-02-19 17:26:14.8879|INFO|thread: 1|ReactiveScreen|Closed GitHub.ViewModels.DashboardViewModel.
+2017-02-19 17:26:14.8889|INFO|thread: 1|ReactiveScreen|Closed GitHub.ViewModels.ShellViewModel.
+2017-02-19 17:26:14.8889|INFO|thread: 1|App|Shutting down: C:\Users\heeun\AppData\Local\Apps\2.0\3VE1NJ85.LC4\VYA25DXN.734\gith..tion_317444273a93ac29_0003.0003_5794af8169eeff14
+2017-02-19 17:26:14.9210|INFO|thread: 1|BlobCacheUtils|Shutting down cache 'C:\Users\heeun\AppData\Roaming\GitHub\cache.db'
+2017-02-19 17:26:14.9210|INFO|thread: 1|BlobCacheUtils|Vacuuming C:\Users\heeun\AppData\Roaming\GitHub\cache.db
+2017-02-19 17:26:14.9210|INFO|thread: 1|BlobCacheUtils|Shutting down cache 'C:\Users\heeun\AppData\Local\GitHub\cache.db'
+2017-02-19 17:26:14.9210|INFO|thread: 1|BlobCacheUtils|Shutting down cache 'C:\Users\heeun\AppData\Roaming\GitHub\secure-cache.db'
+2017-02-19 17:26:14.9210|INFO|thread:25|BlobCacheUtils|Vacuuming C:\Users\heeun\AppData\Local\GitHub\cache.db
+2017-02-19 17:26:14.9210|INFO|thread:25|BlobCacheUtils|Vacuuming C:\Users\heeun\AppData\Roaming\GitHub\secure-cache.db
+2017-02-19 17:26:15.0002|INFO|thread:52|BlobCacheUtils|Shutting down cache 'C:\Users\heeun\AppData\Local\GitHub\api.github.com.cache.db'
+2017-02-19 17:26:15.0002|INFO|thread:52|BlobCacheUtils|Shutting down cache 'C:\Users\heeun\AppData\Roaming\GitHub\api.github.com.cache.db'
+2017-02-19 17:26:15.0002|INFO|thread:50|BlobCacheUtils|Vacuuming C:\Users\heeun\AppData\Local\GitHub\api.github.com.cache.db
